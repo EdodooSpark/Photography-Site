@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>TRiPiXEL STuDiOs</title>
+
+<!--LINKS--->
+<link rel="stylesheet" href="./css/style.css"> 
+<!--start of Js and lightbox.min.css link-->
+<link rel="stylesheet" type="text/css" href="./css/lightbox.min.css">
+<script src="./js/lightbox-plus-jquery.min.js"></script>
+
+<!--start of Js and lightbox.min.css link-->  <script type="text/javascript">
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('black');
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+    }) 
+</script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/poper.min.js"></script>
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></script>
+               
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>                              
+                
+<link rel="stylesheet" href="./css/all.css">
+<script src="./js/JQuery%203.4.1.min.js"></script>
+
+<script src="./bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css"> 
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+    
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+     
+<!---Home Section-->
+<div id="home">
+<!--Navigation-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+<a class="navbar-brand" href="index.html"><img src="logos/trip4.png"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+  <i class="fa fa-bars"></i>  
+ </button>
+    
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+    <a class="nav-link active" href="#home">Home</a>
+    </li>
+    
+   <!--dropdown link for gallery---> 
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="indexA.html" id="navbarDropdown" role="button" data-toggle="dropdown">Gallery</a>
+        
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+     <a class="dropdown-item" href="#Gallery">People</a>   
+     <div class="dropdown-divider"></div> 
+     <a class="dropdown-item" href="#Event">Events</a>
+     <div class="dropdown-divider"></div>
+     <a class="dropdown-item" href="#Animal">Animals</a>  
+    </div>
+    </li>
+    <!--End of dropdown list--->
+    
+     <li class="nav-item">
+    <a class="nav-link" href="#about">About</a>
+    </li>
+    
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Booking</a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+     <a class="dropdown-item" href="#pricing">Pricing</a>
+    <div class="dropdown-divider"></div>
+     <a class="dropdown-item" href="#service">Services</a>  
+    </div>
+    </li>
+    
+         <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+        </li>
+    </ul>
+<!--- start nav for socialicons-->
+    <div class="social icons">
+  <a href="https://www.instagram.com/tripixelstudios" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+<a href="https://www.facebook.com/tripixelstudios" target="_blank"><i class="fab fa-facebook-f"></i></a>
+     
+<a href="https://www.twitter.com/@Tripixel1" target="_blank"><i class="fab fa-twitter-square"></i></a>
+</div>
+</div>
+
+<!---end nav social icons-->
+</nav>
+</div>
+<!--end of Navigations-->
+
+  
+<!---Slider Image Slider--->
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+     
+ <ol class="carousel-indicators">
+ <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
+     
+ <li data-target="carouselExampleIndicators" data-slide-to="1" class="active"></li>
+     
+<li data-target="carouselExampleIndicators" data-slide-to="2" class="active"></li>
+</ol>
+     
+<div class="carousel-inner" role="listbox">
+    
+    <!--slide 1-->
+<div class="carousel-item active" style="background-image:  radial-gradient(rgba(1,1,63,0.3),rgba(1,1,30,0.3)),  url(./img/slide1.jpg);">
+    
+<div class="carousel-caption text-center">
+    <h1><strong>WELCOME</strong></h1>
+    <h3>TRiPiXEL STUDIOS</h3>
+    <a class="btn btn-outline-warning btn-sm" href="https://docs.google.com/forms/d/e/1FAIpQLScjb2LBCPPejzqCqtx3QfdeguM8AB_ymNK1DwMx6jicfRUU5w/viewform?usp=sf_link">Book Now</a>
+</div>  
+</div>
+    
+<!---  slide2 ---->
+<div class="carousel-item" style="background-image:  radial-gradient(rgba(1,1,63,0.6),rgba(1,1,30,0.3)),  url(./img/slide2.jpg);">
+</div>
+    
+<!---  slide3 ---->
+<div class="carousel-item" style="background-image:  radial-gradient(rgba(1,1,63,0.3),rgba(1,1,30,0.3)),  url(./img/slide5.jpg);">
+</div>
+    <!---end of inner slider--->
+    
+<!---start of previous and next Button-->
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"  data-slide="prev">
+ <span class="carousel-control-prev-icon" aria-hidden="true"></span>   
+</a>
+   
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"  data-slide="next">
+ <span class="carousel-control-next-icon" aria-hidden="true"></span>   
+</a>
+<!---end of  previous and next Button-->
+    
+</div>   
+</div>   
+<!---end image Slider--->
+
+       
+    
+
+<!--Gallery section-->
+<section id="Gallery" data-aos="fade-down" data-aos-duration = "2000" class="offset">
+<h3>Portfolio</h3>
+<div class="Portfolio" data-aos="fade-right" data-aos-duration = "2000" data-aos-delay="1000">
+    <h1><u>People</u></h1>
+   <a href="slideImgs/people./people1Lg.jpg" data-lightbox="mygallery" data-title="Beautiful People"><img src="slideImgs/people./people1Sm.jpg"></a> 
+    
+    <a href="slideImgs/people./people4Lg.jpg" data-lightbox="mygallery" data-title="Happines"><img src="slideImgs/people./people4Sm.jpg"></a>
+    
+    <a href="slideImgs/people./people5Lg.jpg" data-lightbox="mygallery" data-title="Models"><img src="slideImgs/people./people5Sm.jpg"></a>
+    
+    <a href="slideImgs/people./people17Lg.jpeg" data-lightbox="mygallery" data-title="Joy"><img src="slideImgs/people./people17Sm.jpeg"></a>
+    
+    <a href="slideImgs/people./people13Lg.jpg" data-lightbox="mygallery" data-title="Couples"><img src="slideImgs/people./people13Sm.jpg"></a>
+     
+ <section id="Event" class="offset">   
+<div class="event" data-aos="fade-down" data-aos-duration = "2000" data-aos-delay="1500">
+      <h1><u>Events</u></h1>
+   <a href="slideImgs/events./slide1bg.jpg" data-lightbox="mygallery" data-title="Beautiful People"><img src="slideImgs/events./slide1Sm.jpg"></a> 
+    
+    <a href="slideImgs/events./slide2bg.jpg" data-lightbox="mygallery" data-title="Happines"><img src="slideImgs/events./slide2sm.jpg"></a>
+    
+    <a href="slideImgs/events./slide3bg.jpg" data-lightbox="mygallery" data-title="Models"><img src="slideImgs/events./slide3sm.jpg"></a>
+    
+    <a href="slideImgs/events./slide4bg.jpg" data-lightbox="mygallery" data-title="Joy"><img src="slideImgs/events./slide4sm.jpg"></a>
+    
+    <a href="slideImgs/events./slide5bg.jpg" data-lightbox="mygallery" data-title="Couples"><img src="slideImgs/events./slide5sm.jpg"></a>
+ </div>  
+    </section>  
+<section id="Animal">   
+<div class="animals" data-aos="fade-down" data-aos-duration = "2000" data-aos-delay="1600">
+      <h1><u>Animals</u></h1>
+   <a href="slideImgs/animals./anim1bg.jpg" data-lightbox="mygallery" data-title="Bird"><img src="slideImgs/animals./anim1sm.jpg"></a> 
+    
+    <a href="slideImgs/animals./anim2bg.jpg" data-lightbox="mygallery" data-title="Squirrel"><img src="slideImgs/animals./anim2sm.jpg"></a>
+    
+    <a href="slideImgs/animals./anim3bg.jpeg" data-lightbox="mygallery" data-title="Models"><img src="slideImgs/animals./anim3sm.jpeg"></a>
+    
+    <a href="slideImgs/animals./anim4bg.jpg" data-lightbox="mygallery" data-title="Dog"><img src="slideImgs/animals./anim4sm.jpg"></a>
+    
+    <a href="slideImgs/animals./anim5bg.jpg" data-lightbox="mygallery" data-title="Monkeys"><img src="slideImgs/animals./anim5sm.jpg"></a>
+
+ </div>
+    </section>
+    <a href="indexA.html"><button class="button button-1">Discover More</button></a>
+    
+</div>
+</section>
+  
+<!--End Of Gallery -->
+    
+    
+<!--Start of About Us Section---->    
+   <section id="about" data-aos="fade-down" data-aos-duration = "2000" class="offset">
+<div class="container">
+<div class="team"  data-aos="fade-in" data-aos-duration = "2000" data-aos-delay="1000">
+    <h2><u>About Us</u></h2>
+    <table border = 3 bgcolor = white cellspacing = 20 cellpadding = 20>
+<tr>
+<td rowspan= 3><p> <h2>TRiPiXEL STUDIOS</h2>
+    <br><br><p>
+    We are a Proud Ghanaians, who works as Graphic Designers 
+and Advertising marketers before stepping behind the lens to explore his own creative vision.As a Photographer,Marketer and graphic Designer we are Inspired
+by creativity and the capture of beautiful moments.Tripixel studios produces impressive,expressive,beautifully and lucid Imagery striking a balance between
+high Graphic Art and Events Photography.
+In Certain cases,we acts as video-shooters and creating everlasting 
+unforgetablemoments for client to put on a smile.Our world leaves no one Indifferent: the incredibly polished and extensive experience in the field of graphic design,basically turns our photographs into wonderful Graphic-like creations.
+ </p></td>
+
+<td><img src="./img/bg1.jpg"></td>
+
+</table>
+
+</div>
+</div>
+    </section>
+ <!--end of about Us--->   
+       
+<!----start of services section----->
+<section id="service"data-aos="fade-left" data-aos-duration = "2000" class="offset">
+<h1>What We Offer</h1>
+ <div class="container">
+  <div class="box" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay="3000">>
+  <div class="content text-justify">
+  <h2><i class="fas fa-film"></i></h2>    
+  <h3>FILMING</h3>
+  <p>Lorem ipsum dolor sut amet,consectetur adipisicinge lit,sed euismod tempor incididunt ut labore et dolore magna aliqui. </p>
+</div>  
+</div>
+     
+  <div class="box" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay="2000">>
+  <div class="content text-justify">
+  <h2><i class="fas fa-camera"></i></h2>    
+  <h3>PHOTOGHRAPHY</h3>
+  <p>Lorem ipsum dolor sut amet,consectetur adipisicing elit,sed euismod tempor incididunt ut labore et dolore magna aliqui. </p>
+</div>  
+</div> 
+     
+  <div class="box" data-aos="fade-up" data-aos-duration = "2000" data-aos-delay="1000">>
+  <div class="content">
+ <h2><i class="fas fa-portrait"></i></h2>    <h3>Portrait</h3>
+  <p>Lorem ipsum dolor sut amet,consectetur adipisicing elit,sed euismod tempor incididunt ut labore et dolore magna aliqui. </p>
+</div>  
+</div>
+     
+  <div class="box">
+  <div class="content text-justify">
+  <h2><i class="fas fa-video"></i></h2>    
+  <h3>VIDEOGRAPHY</h3>
+  <p>Lorem ipsum dolor sut amet,consectetur adipisicing elit,sed euismod tempor incididunt ut labore et dolore magna aliqui. </p>
+</div>  
+</div>
+</div>
+</section>    
+
+ <!-----Pricing section----->
+    
+   <section id="pricing" data-aos="fade-down" data-aos-duration = "2000" class="offset">   
+<div class="pricing-table">
+<div class="col" data-aos="fade-left" data-aos-duration = "2000" data-aos-delay="2500" class="offset">
+<div class="table">
+<h2>Events</h2>
+<div class="price">
+  $30
+<span>Per section</span>
+</div>
+<ul>
+ <li><strong>Weddings</strong></li> <li><strong>Outdoring</strong></li> <li><strong>Funerals</strong></li>   
+ <li><strong>Parties</strong></li></ul>  
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScjb2LBCPPejzqCqtx3QfdeguM8AB_ymNK1DwMx6jicfRUU5w/viewform?usp=sf_link">Book Now</a> 
+</div>
+</div>
+<!-- repeat these   -->
+    
+<div class="col" data-aos="fade-left" data-aos-duration = "2000" data-aos-delay="1500" class="offset"><div class="table">
+<h2>Photoshoot</h2>
+ 
+ <div class="pop">Popular</div>   
+     
+<div class="price">
+  $15
+<span>Per Hour</span>
+</div>
+<ul>
+ <li><strong>Portrait</strong></li> <li><strong>Passport</strong></li> <li><strong>Landscape</strong></li>   
+ <li><strong>photoshop</strong></li></ul>  
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScjb2LBCPPejzqCqtx3QfdeguM8AB_ymNK1DwMx6jicfRUU5w/viewform?usp=sf_link">Book Now</a> 
+</div>
+</div>
+    
+    
+<div class="col" data-aos="fade-left" data-aos-duration = "2000" data-aos-delay="1000" class="offset"><div class="table">
+<h2>Studio</h2>
+<div class="price">
+  $50
+<span>Per Day</span>
+</div>
+<ul>
+ <li><strong>Filming</strong></li> <li><strong>Advertisement</strong></li> <li><strong>Long video</strong></li>   
+ <li><strong>Commercials</strong></li></ul>  
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScjb2LBCPPejzqCqtx3QfdeguM8AB_ymNK1DwMx6jicfRUU5w/viewform?usp=sf_link">Book Now</a> 
+</div>
+</div>
+    
+    
+<div class="col" data-aos="slide-left" data-aos-duration = "2000" class="offset"><div class="table">
+<h2>Fashion</h2>
+<div class="price">
+  $85
+<span>Per Day</span>
+</div>
+<ul>
+ <li><strong>Modelling</strong></li> <li><strong>Photoshoot</strong></li> <li><strong>Video</strong></li>   
+ <li><strong>Commercial</strong></li></ul>  
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScjb2LBCPPejzqCqtx3QfdeguM8AB_ymNK1DwMx6jicfRUU5w/viewform?usp=sf_link">Book Now</a> 
+</div>
+</div>
+</div>
+</section>
+     
+<!--Ending of Pricing--> 
+
+    
+    
+ <!---Start of Contact Section--->
+<div id="contact" data-aos="fade" data-aos-duration = "2000" data-aos-delay="100" class="offset">
+       
+<footer>
+<div class="row justify-content-center">
+<div class="col-md-5 text-center">
+   <img src="./Logos/./trip4.png">
+    <p>Want a Memorable Capture? All it takes is a <i class="fa fa-phone"></i></p>
+    <strong>Contact Info</strong>
+      <p>(+233) 209-433370<br>tpixel26@gmail.com</p>
+      <p>(+233) 501-590253<br>tpixel26@gmail.com</p>
+      
+<a href="https://www.instagram.com/tripixelstudios" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+<a href="https://www.instagram.com/tripixelstudios" target="_blank"><i class="fab fa-facebook-square"></i></a>
+     
+<a href="https://www.twitter.com/@Tripixel1" target="_blank"><i class="fab fa-twitter-square"></i></a>
+      
+</div> 
+    
+<hr class="socket">
+   Copyright &copy; All rights reserved | TRiPiXEL Studios.
+  </div>
+   <div class="tag">
+   <p>Created by Edodoo.</p> 
+</div>
+    
+	 
+</footer>
+ </div>   
+ <!-----End of contact Section---> 
+    
+<a href="#top"><button class="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button></a> 
+
+<!--<script>
+    
+<!---start of the back to top js-->
+    
+ <!-- $(document).ready(function(){
+      var offset = 300;
+      var duration = 500;
+      
+      $(window).scroll(function(){
+          if($(this).scrollTop() > offset){
+              $('.back-to-top-btn').fadeIn(duration);
+          }else{
+              $('.back-to-top-btn').fadeOut(duration);
+          }
+      });
+      
+      $('.back-to-top-btn').click(function(){
+          $('body').animate({scrollTop: 0}, duration);
+      })
+  });   -->
+    
+<!--back to top JAVASCRIPT--->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
+    </script> 
+    
+ <!-- Javascript -->
+	
+    
+</body>
+</html>
+
+

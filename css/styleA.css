@@ -1,0 +1,77 @@
+
+#Gallery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgba(1,1,80,0.3),rgba(1,1,60,0.3)), url("../bgimgs/bg24.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 130vh;
+    background-attachment: fixed;
+  
+}
+
+#Gallery h3{
+    text-transform: capitalize;
+    font-family: "monotype corsiva";
+	font-size: 50px;
+    color: #fda50f;
+	font-weight: 20px;
+    text-align: center;
+    text-shadow:  .1rem .1rem .3rem black;
+}
+
+
+
+
+.Portfolio{
+    margin: 30px 10px;
+    margin-left: 115px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.8);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    box-shadow: 0 5px 15px 
+    rgba(1,1,63,0.3);
+   	padding: 20px;
+	width: 160vh;
+}
+
+
+.Portfolio img{
+    transition: 1s;
+    padding: 7px;
+    width: 200px;
+    border-radius: 2px;
+     box-shadow: 0 5px 15px 
+    rgba(1,1,63,0.3); 
+    background-color: #fda50f;
+	margin: 10px 5px;
+}
+
+.Portfolio img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.back img{
+	position: fixed;
+    top: 40px;
+    right: 20px;
+	height: 40px;
+	width: 40px;
+	color: #01013f;
+	background-color: #fda50f;
+	cursor: pointer;
+    outline: none;
+    border: 2px solid #fda50f;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color,color;
+}
+
+.back img:hover,.back img:focus{
+    background-color: white;
+    
+	
+}
